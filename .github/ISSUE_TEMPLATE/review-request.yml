@@ -1,6 +1,5 @@
 name: Review Request
 description: A metadata specification review request form
-title: ""
 labels: ["new review"]
 assignees:
   - johardi
