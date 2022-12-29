@@ -1,0 +1,23 @@
+name: Review Request
+description: A metadata specification review request form
+title: ""
+labels: ["new review"]
+assignees:
+  - johardi
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this review request form!
+  - type: input
+    id: metadata-specification-name
+    attributes:
+      label: Name of the metadata specification
+    validations:
+      required: true
+  - type: input
+    id: metadata-specification-source
+    attributes:
+      label: Metadata specification URL
+    validations:
+      required: true
